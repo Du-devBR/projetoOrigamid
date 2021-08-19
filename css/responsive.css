@@ -1,0 +1,179 @@
+
+
+/*responsivo para tablets*/
+
+@media only screen and (min-width: 768px) and  (max-width: 959px) {
+/*qualidade*/
+	.qualidade img {
+		margin-left: 285px;
+	}
+	
+	.qualidade::after {
+		right: 66px;
+		
+	}
+	.qualidade_lista li {
+		padding: 0 10px;
+	}
+/*footer*/
+	.footer-redes li a img {
+		width: 47px;
+		height: 47px;
+	}
+
+/*produtos*/
+	.produto_item h2 {
+		top: -150px;
+		margin-bottom: -56PX;
+	}
+
+	.produto-icone {
+		padding: 41px 0;
+	}	
+
+	.produto-icone img {
+		margin-left: 10px;
+	}
+
+	.produto_info p {
+		font-size: 14px;
+		line-height: 20px;
+		padding: 20px 30px;
+		height: 131px;
+	}
+
+	.produto_info ul li {
+		width: 181px;
+		height: 49px;
+		
+	}
+}
+
+/*resposivo para celulares*/
+
+@media only screen and (max-width: 767px) {
+
+/*header*/
+	.header {
+		position: relative;
+		
+	}
+
+	.header img {
+		margin: 0 auto 20px;
+	}
+
+     .header_menu {
+	    text-align: center;
+}
+
+     .header_menu ul li {
+	    margin: 0;
+}
+     
+     .header_menu ul li a {
+		 color: #000;
+		 border: 4px solid black;
+		 font-weight: bold;
+		 text-transform: uppercase;
+		 letter-spacing: .1em;
+		 font-size: 14px;
+		 line-height: 20px;
+		 float: left;
+		 display: block;
+		 width: 140px;
+		}
+
+	.header_menu ul li a:hover {
+		border-color: white;
+	}
+/*introdução-home*/
+	.introducao {
+		margin-top: 0;
+		padding-top: 20px;
+		background: url(../img/home/bg\ -\ mobile.jpg) no-repeat center;
+		background-size: cover;
+	}	
+
+	.introducao-interna {
+		margin-top: 0px; 
+	}	
+/*call*/
+	.call {
+		padding-top: 10px;
+	}
+/*qualidade-mobile*/
+	.qualidade {
+		padding: 10px;
+	}
+
+	.qualidade::after {
+		display: none;
+		
+	}
+
+	.qualidade img {
+		margin: 0 auto;
+	}
+
+	.qualidade_lista {
+		margin-top: -20px;
+		
+	}
+/*Sobre*/
+	.descritivo p  {
+		font-size: 14px;
+	}
+	.descritivo ul li  {
+		font-size: 14px;
+	}
+
+	.descritivo img {
+		padding: 10px 0;
+	}
+
+/*produtos*/
+	.produto_item h2 {
+		top: -100px;
+		margin-bottom: -68PX;
+	}
+
+	.produto-icone {
+		padding: 41px 0;
+	}	
+
+	.produto-icone img {
+		margin-left: 50px;
+	}
+
+	.produto_info p {
+		font-size: 14px;
+		line-height: 20px;
+		padding: 20px 30px;
+		height: auto;
+	}
+
+	.produto_info ul li {
+		width: 149px;
+		height: 49px;
+		font-size: 14px;
+		line-height: 20px;
+	}
+/*formulario produtos*/
+	.form {
+		padding-right: 0;
+	}
+
+	.orcamento_dados ul {
+		padding-right: 0;
+	}
+
+/*formulario comtato*/	
+	.contato_form {
+		padding-right: 0px;
+		padding-bottom: 60px;
+		
+	
+	}
+
+}
